@@ -1,0 +1,41 @@
+.nav-container{
+   /*  width: 16%; */
+    height: 90%;
+}
+.right-container{
+    width: 80%;
+}
+@media screen and(min-width:320px) and(max-width:481px) {
+    .right-container{
+        /* margin-left: -10%; */
+    }
+}
+
+@media  screen and (max-width:768px) {
+   .nav-container{
+       width: 0%;
+   }
+    .right-container{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width:1440px){ 
+    .nav-container{
+        width: 20%;
+    }
+    .right-container{
+        width: 80%;
+    }
+}
+
+@media  screen and (min-width:769)and (max-width:1024px) {
+  
+    .nav-container{
+        width: 30%;
+    }
+    .right-container{
+        width: 70%;
+    }
+   
+}

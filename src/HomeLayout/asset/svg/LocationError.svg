@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16">
+  <g id="Icon" transform="translate(1 1)">
+    <path id="Path" d="M11,5.727C11,10.182,5.5,14,5.5,14S0,10.182,0,5.727A5.617,5.617,0,0,1,5.5,0,5.617,5.617,0,0,1,11,5.727Z" transform="translate(0 0)" fill="none" stroke="#890804" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <ellipse id="Oval" cx="1.833" cy="1.909" rx="1.833" ry="1.909" transform="translate(3.667 3.818)" fill="none" stroke="#890804" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

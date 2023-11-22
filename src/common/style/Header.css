@@ -1,0 +1,196 @@
+/* Header */
+.header-container {
+    height: 10%;
+    background-color: #000000;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    font-family: Poppins, sans-serif;
+}
+.header-container h2{
+    font-weight: normal;
+}
+.header-container .header-logo {
+    margin-left: 40px;
+}
+.header-container .header-title {
+    color: white;
+    position: absolute; /* new */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header-container .header-title h1 {
+    font-size: 28px;
+}
+.header-container .header-profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute; /* new */
+    right: 30px;
+    cursor: pointer;
+}
+.header-container .header-profile-container p {
+    color: white;
+    
+}
+.header-container .header-profile-container img {
+    width: 32px;
+    height: 32px;
+    margin: 0px 10px;
+    padding: 1px;
+    border-radius: 50%;
+    margin-right: 0px;
+}
+.profile-viewer-btn{
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+.header-container .header-profile-container button {
+    background-color: transparent;
+    border-left: 0.5px solid white;
+    border-radius: 0;
+    width: auto;
+    padding: 0px 10px;
+    height: 26px;
+}
+/* .header-container .header-profile-container button:nth-last-child(2){
+    display: none;
+} */
+.header-container .header-profile-container button:nth-last-child(1){
+    display: none;
+}
+.profile-header-ctr{
+    border-bottom: 1px solid rgb(207, 207, 207);
+    cursor: pointer;
+  
+}
+.signout-header-ctr{
+
+    cursor: pointer;
+}
+/* .profile-header-ctr:hover{
+    background-color: rgb(151, 151, 151);
+    border-radius: 2px;
+    color: white;
+    
+} */
+.header-container .header-profile-container .header-pop-up-ctr{
+    display: block;
+    position: absolute;
+   background-color: rgb(255, 255, 255);
+   color: #000000;
+   position: absolute;
+   right: 4px;
+   width: 100px;
+   top: 30px;
+ 
+   border-radius: 8px;
+   font-size: 15px;
+   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+   z-index: 1;
+   padding:10px;
+   font-weight: bold;
+}
+@media (min-width: 1440px) {
+    .header-container .header-title h2 {
+        font-size: 30px;
+    }
+    .header-container {
+        height: 8%;
+    }
+    .right-container {
+        height: 92%;
+    }
+}
+@media (max-width: 1025px) {
+    .header-container .header-logo {
+        margin-left: 10px;
+    }
+    .header-container .header-logo img {
+        width: 10rem;
+        /* width: 20px; */
+    }
+    .header-container h1 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 980px) {
+    .header-profile-container p,
+    .header-profile-container button:nth-last-child(1){
+        display: none;
+    }
+    .header-container .header-logo {
+        display: none;
+    }
+    .header-container .header-profile-container button:nth-last-child(2){
+        display: block;
+        position: absolute;
+       background-color: rgb(255, 255, 255);
+       color: #000000;
+       position: absolute;
+       right: 4px;
+       width: 100px;
+       top: 30px;
+       height: 40px;
+       border-radius: 8px;
+       font-size: 15px;
+       box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+       z-index: 1;
+    }
+    .profile-viewer-btn{
+        color: white;
+        font-size: 20px;
+        display:block;
+    }
+}
+@media (max-width: 769px) {
+    .header-container .header-logo {
+        margin-left: 10px;
+    }
+    .header-container .header-logo img {
+        width: 8.5rem;
+    }
+    .header-container h1 {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 560px) {
+    .header-container .header-logo {
+        margin-left: 5px;
+    }
+    .header-container .header-logo img {
+        width: 8rem;
+    }
+    .header-container h1 {
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 480px) {
+    .header-container .header-logo {
+        display: none;
+    }
+    .header-container .header-title {
+        position: static;
+        left: 0;
+        transform: none;
+        margin: 0 auto;
+    }
+    .header-container .header-title h1 {
+        text-align: center;
+    }
+}
+@media (max-width: 340px){
+    .header-container .header-title h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 340px){
+    .header-container .header-title h2{
+        font-size: 15px;
+    }
+}
